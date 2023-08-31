@@ -28,6 +28,6 @@ public class CalculatorTest {
     @Test
     public void testSubtraction() {
         Calculator calculator = new Calculator();
-        assertEquals(0, subtraction(13, 7));
+        assertEquals(6, calculator.subtraction(13, 7));
     }
 }
