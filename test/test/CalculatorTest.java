@@ -23,6 +23,7 @@ public class CalculatorTest {
     public void testPow() {
     	Calculator calcTest = new Calculator();
     	assertEquals(8, calcTest.pow(2, 3));
+    	assertEquals(0.25, calcTest.pow(2, -2));
     }
 
     @Test
