@@ -10,4 +10,12 @@ public class CalculatorTest {
         int result = calculator.sum(2, 3);
         assertEquals(5, result);
     }
+    
+    @Test
+    public void testMedia() {
+        Calculator calculator = new Calculator();
+        double[] numeros = {1,2,3,4,5};
+        double result = calculator.calcMedia(numeros);
+        assertEquals(3, result);
+    }
 }
