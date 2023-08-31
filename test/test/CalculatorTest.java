@@ -19,9 +19,15 @@ public class CalculatorTest {
         assertEquals(3, result);
     }
     
-    @
+    @Test
     public void testPow() {
     	Calculator calcTest = new Calculator();
     	assertEquals(8, calcTest.pow(2, 3));
+    }
+
+    @Test
+    public void testSubtraction() {
+        Calculator calculator = new Calculator();
+        assertEquals(0, subtraction(13, 7));
     }
 }
