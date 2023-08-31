@@ -18,4 +18,10 @@ public class CalculatorTest {
         double result = calculator.calcMedia(numeros);
         assertEquals(3, result);
     }
+    
+    @
+    public void testPow() {
+    	Calculator calcTest = new Calculator();
+    	assertEquals(8, calcTest.pow(2, 3));
+    }
 }
